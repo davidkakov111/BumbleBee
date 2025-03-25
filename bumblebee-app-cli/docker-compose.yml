@@ -1,0 +1,12 @@
+services:
+  react-app:
+    build: .
+    ports:
+      - "5173:80"
+    restart: always
+    networks:
+      - react-network
+
+networks:
+  react-network:
+    driver: bridge

@@ -1,0 +1,41 @@
+.page-title {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#root .table-container {
+    width: 100%;
+    background-color: var(--glass-color); 
+    border-radius: 10px;
+    padding: 20px;
+}
+  
+.MuiTableCell-head {
+    background-color: var(--hover-glass-color);
+}
+
+#root .table-container .big-bold {
+    font-weight: bold;
+    font-size: larger;
+}
+  
+.add-to-cart-btn {
+    width: 136px;
+    background-color: #1976d2;
+    color: white;
+    &:hover {
+      background-color: #0058bd;
+    }
+}
+  
+#root .table-container .MuiTableCell-root {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.shop-table {
+    overflow-x: auto;
+}
+

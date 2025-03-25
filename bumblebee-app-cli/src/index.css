@@ -1,0 +1,28 @@
+body {
+    background-image: url('/background.png'); 
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: -1;
+}
+
+:root {
+    --glass-color: rgba(255, 255, 255, 0.5);
+    --hover-glass-color: rgba(255, 255, 255, 0.6);
+}
+
+#root {
+    width: 100%;
+}

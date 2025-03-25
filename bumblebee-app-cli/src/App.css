@@ -1,0 +1,45 @@
+.MuiAppBar-root.glass-header { 
+    background-color: var(--glass-color); 
+    backdrop-filter: blur(10px);
+    box-shadow: none; 
+    align-items: center;
+    width: 100%;
+}
+
+.glass-header .toolbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1000px;
+    padding: 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none; 
+    color: black;
+}
+
+.logo:hover {
+    color: gray;
+}
+
+.logo img {
+    height: 30px;
+    margin-right: 10px;
+}
+  
+.logoText {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+    max-width: 1000px;
+    padding-top: 100px;
+}

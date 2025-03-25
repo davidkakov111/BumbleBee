@@ -1,0 +1,12 @@
+services:
+  fastify-app:
+    build: .
+    ports:
+      - "5000:5000"
+    restart: always
+    networks:
+      - fastify-network
+
+networks:
+  fastify-network:
+    driver: bridge
